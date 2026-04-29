@@ -163,5 +163,24 @@ print(f"Model with min points = {validation_stats_summary['min_points'][0]}.ply.
 print(f"Model with the highest edge points percentage = {validation_stats_summary['highest_pct'][0]}.ply. Has {validation_stats_summary['highest_pct'][1]:.2f}%.")
 print(f"Model with the lowest edge points percentage = {validation_stats_summary['lowest_pct'][0]}.ply. Has {validation_stats_summary['lowest_pct'][1]:.2f}%.")
 
+# Output:
+# ---Train Dataset---
+# Total points = 3174768 points.
+# Mean points = 16034 points.
+# Total edges = 149469 points.
+# Global edge percentage = 4.71%.
+# Model with max points = 1452.ply. Has 118332 points.
+# Model with min points = 2340.ply. Has 1246 points.
+# Model with the highest edge points percentage = 2800.ply. Has 38.52%.
+# Model with the lowest edge points percentage = 0310.ply. Has 0.61%.
 
+# ---Validation Dataset---
+# Total points = 690211 points.
+# Mean points = 13804 points.
+# Total edges = 40089 points.
+# Global edge percentage = 5.81%.
+# Model with max points = 0353.ply. Has 34340 points.
+# Model with min points = 0713.ply. Has 1004 points.
+# Model with the highest edge points percentage = 0713.ply. Has 87.65%.
+# Model with the lowest edge points percentage = 0939.ply. Has 1.23%.
 

@@ -31,16 +31,16 @@ Chaque modèle est défini par sa géométrie au format `.ply` (coordonnées x, 
 L'analyse statistique par modèle montre des variations dans la densité des arêtes, liées à la forme spécifique des objets :
 
 - **Densité minimale d'arêtes (dataset Train) :** `0310.ply` (0.61%)
-    - ![train_0310](/images/train_0310.png)
+    - ![train_0310](/docs/images/train_0310.png)
 
 - **Densité maximale d'arêtes (dataset Train) :** `2800.ply` (38.52%)
-    - ![train_2800](/images/train_2800.png)
+    - ![train_2800](/docs/images/train_2800.png)
 
 - **Densité minimale d'arêtes (dataset Validation) :** `0939.ply` (1.23%)
-    - ![validation_0939](/images/validation_0939.png)
+    - ![validation_0939](/docs/images/validation_0939.png)
 
 - **Densité maximale d'arêtes (dataset Validation) :** `0713.ply` (87.65%)
     - *Note d'analyse :* Après vérification de la géométrie dans CloudCompare, ce taux extrême s'explique par la nature de l'objet (type fil de fer/rondelle/joint). Ce que nous intéresse ici ce qu'il ne s'agit pas d'une erreur d'annotation.
-    - ![validation_0713](/images/validation_0713.png)
+    - ![validation_0713](/docs/images/validation_0713.png)
 
 
